@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(242, 223, 223);
+}
+.container {
+  width: 70%;
+  height: 740px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.heading {
+  width: 100%;
+  height: auto;
+  color: rgb(79, 119, 220);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 25px 0 20px 0;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: arial,sans-serif;
+
+}
+li{
+  padding: 10px;
+  font-family: arial,sans-serif;
+
+
+}
+ul{
+  margin: 0px 15px 0px 15px;
+  list-style-image: url(./check-circle.png);
+  font-size: 20px;
+  list-style-position: inside;
+  color: #555555;
+}
+
+
+th{
+    padding: 15px;
+    height: 20px;
+    font-size: 20px;
+    text-align: left;  
+    text-transform: uppercase; 
+    letter-spacing: 1.6PX;
+    font-family: arial,sans-serif;
+}
+td {
+  padding: 15px;
+  height: 20px;
+  font-size: 19px;
+  text-align: left;
+  font-family: arial,sans-serif;
+
+}
+
+
+table {
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-collapse: collapse;
+}
+
+.redish{
+  background-color:rgb(234, 232, 232) ;
+}
+.head-left2{
+  color: white;
+}
+
+tr:hover{
+  background-color:rgb(243, 243, 243) ;
+}
+
+.footer {
+  display: flex;
+  justify-content: end;
+}
+button {
+font-size: 20px;
+padding:10px 40px 10px 40px;
+margin-top: 20px;
+border-radius: 10px;
+background-color:  rgb(79, 119, 220);
+border: none;
+}
+
+
+button:hover{
+background-color:  rgb(54, 96, 201);
+
+}
+
+#head{
+    background-color:  rgb(79, 119, 220);
+}
